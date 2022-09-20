@@ -9,24 +9,24 @@
 
 
 /* -----DEBUG--------*/
-.debug .top{
+/* .debug .top{
    background-color: #add8e6; 
-}
+} */
 
-.debug .low{
+/* .debug .low{
     background-color:#00008b;
-}
+} */
 
-.debug .header-top{
+/* .debug .header-top{
     background-color: #daa520;
     height: 50px;
 
-}
+} */
 
-.debug .header-low{
+/* .debug .header-low{
     background-color:#ee82ee;
-    height: 200px;
-    width: 800px;
+    height: 400px;
+    width: 800px; */
 }
 
 .debug .first{
@@ -93,48 +93,130 @@ border: 1px dotted black;
 
 
 /* -----COMMON--------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .container{
     max-width: 1200px;
     margin: auto;
+}
+
+
+.button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 18px;
 }
 /* -----/ COMMON--------*/
 
 
 
 /* -----HEADER--------*/
-.nav-top{
-    width: 50%;
-    display: flex;
-    list-style: none;
+
+.top {
+    background-color:#255EE9;
+    color: #f3ffff;
 }
+
+
+.header-top{
+    height: 50px;
+    
+}
+
+
+.header-top nav{
+    width: 50%; 
+}
+
+.logo{
+    height: 34px;
+    line-height: 34px;
+}
+
+
+.logo img{
+    width: 102px;
+}
+
+.nav-top{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+}
+
+.nav-top li{
+    margin:0 20px;
+}
+
 
 
 .logo, .login{
     width: 25%;
 }
 
-
-.top, .low{
-    padding: 16px 0;
+.btn-access{
+    background-color: #f3ffff;
+    color: black;
+    
 }
 
 
+.top, .low{
+    padding: 16px 0;
+    text-align: center;
+}
+
+.low{
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+}
+
 .header-top{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
 .header-low {
+    height: 400px;
+    width: 800px;
+    color: #f3ffff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-low {
-    display: flex;
-    
+.text-header h1{
+    padding: 30px 0;
+    font-weight: bold;
+    font-size: 2.5em;
 }
+
+.text-header p{
+    padding-bottom:  15px;
+}
+
+.btn-whithe{
+    font-size: 16px;
+    padding: 10px ;
+    background-color: #f3ffff;
+    color: black;
+}
+
+
+.btn-black{
+     font-size: 16px;
+     padding: 10px;
+     background-color:black;
+     color: #f3ffff;
+}
+
+
+
 /* -----/ HEADER--------*/
 
 
