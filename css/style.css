@@ -38,22 +38,22 @@
     height: 500px;
 }
 
-.debug .col-big{
+/* .debug .col-big{
     background-color:#1e90ff ;
-}
+} */
 
-.debug .col-small{
+/* .debug .col-small{
     background-color: pink;
-}
+} */
 
-.debug .grey{
+/* .debug .grey{
     background-color:#d3d3d3 ;
-}
+} */
 
-.debug .content{
+/* .debug .content{
     background-color: #228b22;
     height: 700px;
-}
+} */
 
 
 .debug footer{
@@ -105,6 +105,7 @@ body{
 
 
 .button{
+    margin: 10px 8px;
     padding: 5px 10px;
     border: none;
     border-radius: 18px;
@@ -226,6 +227,20 @@ body{
 section{
     padding: 40px 0;
 }
+
+
+.col-big{
+    background-image: url(../img/item1.svg);
+    background-size: 100%;
+}
+
+
+.grey{
+    background-color: #f6f6f6;
+}
+
+
+
 .row {
     display: flex;
 }
@@ -235,7 +250,77 @@ section{
 }
 
 .col-small{
+    padding: 0 30px;
+    font-size: 2em;
+    margin-top: 40px;
     width: 40%;
+}
+
+.col-small p{
+    color: #000b15;
+    font-size: 17px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+
+#item2{
+    background-image: url(../img/item2.svg);
+}
+
+
+#items3{
+    background-image: url(../img/item3.svg);
+}
+
+
+.content{
+    height: 600px; 
+    background-image: url(../img/item4-big.svg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.title-text-4{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.title-text-4 p{
+    font-size: 17px;
+    padding: 20px 0;
+    font-weight: bolder;
+}
+
+
+.second-title4{
+    margin: 50px 0;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+   
+}
+
+
+.second-title4 h1{
+    font-size: 1.8em;
+    /* line-height: 100%; */
+    
+    
+}
+
+.btn-total{
+text-align: center;
+}
+
+
+.btn-download{
+    margin-bottom: 50px;
+    font-size: 16px;
+    padding: 10px;
+    background-color:#7289da;
+    color: white;
 }
 /* -----/ MAIN--------*/
 
@@ -244,7 +329,7 @@ section{
 
 /* -----FOOTER--------*/
 footer{
-    padding-top: 5px;
+    padding-top: 50px ;
 }
 
 .footer-row{
@@ -255,11 +340,16 @@ footer{
     /* width: 25%; */
 }
 
-.footer-col1, .footer-col3{
+.footer-col1{
     flex-grow: 2;
 }
 
-.footer-col2, .footer-col4{
+.footer-col1 h1{
+    font-size: 1.5em;
+    color: #7289da;
+}
+
+.footer-col2, .footer-col3, .footer-col4{
     flex-grow: 1;
 }
 
