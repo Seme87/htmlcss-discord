@@ -27,7 +27,7 @@
     background-color:#ee82ee;
     height: 400px;
     width: 800px; */
-}
+
 
 .debug .first{
     background-color: rgb(187, 29, 29);
@@ -348,6 +348,24 @@ footer{
     font-size: 1.5em;
     color: #7289da;
 }
+
+.logo-ita{
+    padding: 10px 0;
+}
+
+.logo-ita img{
+    width: 20px;
+}
+
+.icon{
+    color: white;
+   
+}
+
+.icon span{
+    padding: 0 6px;
+}
+
 
 .footer-col2, .footer-col3, .footer-col4{
     flex-grow: 1;
