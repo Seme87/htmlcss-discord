@@ -1,0 +1,182 @@
+/* -----RESET--------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -----/ RESET--------*/
+
+
+
+/* -----DEBUG--------*/
+.debug .top{
+   background-color: #add8e6; 
+}
+
+.debug .low{
+    background-color:#00008b;
+}
+
+.debug .header-top{
+    background-color: #daa520;
+    height: 50px;
+
+}
+
+.debug .header-low{
+    background-color:#ee82ee;
+    height: 200px;
+    width: 800px;
+}
+
+.debug .first{
+    background-color: rgb(187, 29, 29);
+    height: 500px;
+}
+
+.debug .row{
+    height: 500px;
+}
+
+.debug .col-big{
+    background-color:#1e90ff ;
+}
+
+.debug .col-small{
+    background-color: pink;
+}
+
+.debug .grey{
+    background-color:#d3d3d3 ;
+}
+
+.debug .content{
+    background-color: #228b22;
+    height: 700px;
+}
+
+
+.debug footer{
+    background-color: black;
+}
+
+
+.debug .footer-col1{
+    height: 500px;
+    background-color:#f08080 ;
+}
+
+
+.debug .footer-col2, .footer-col3, .footer-col4{
+height: 500px;
+background-color:#20b2aa;
+border: 1px dotted black;
+}
+
+
+
+.debug .footer-row2{
+    background-color:#7fffd4 ;
+    height: 70px;
+}
+
+
+
+.debug .element{
+    background-color:#ffb6c1 ;
+    height: 40px;
+    width: 80px;
+    border: 1px dotted black;
+}
+/* -----/DEBUG--------*/
+
+
+
+/* -----COMMON--------*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/* -----/ COMMON--------*/
+
+
+
+/* -----HEADER--------*/
+.top, .low{
+    padding: 16px 0;
+}
+
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-low {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-low {
+    display: flex;
+    
+}
+/* -----/ HEADER--------*/
+
+
+
+
+/* -----MAIN--------*/
+section{
+    padding: 40px 0;
+}
+.row {
+    display: flex;
+}
+
+.col-big{
+    width: 60%;
+}
+
+.col-small{
+    width: 40%;
+}
+/* -----/ MAIN--------*/
+
+
+
+
+/* -----FOOTER--------*/
+footer{
+    padding-top: 5px;
+}
+
+.footer-row{
+    display: flex;
+}
+
+.col{
+    /* width: 25%; */
+}
+
+.footer-col1, .footer-col3{
+    flex-grow: 2;
+}
+
+.footer-col2, .footer-col4{
+    flex-grow: 1;
+}
+
+.footer-row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.element{
+    padding: 10px 10px;
+}
+/* -----/FOOTER--------*/
