@@ -370,7 +370,7 @@ footer{
 
 
 .col h1, p{
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px 0;
     font-weight: bolder;
 }
@@ -391,6 +391,8 @@ footer{
     align-items: center;
     margin-top: 20px;
 }
+
+
 
 
 .element{
