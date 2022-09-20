@@ -56,38 +56,35 @@
 } */
 
 
-.debug footer{
-    background-color: black;
-}
 
 
-.debug .footer-col1{
+/* .debug .footer-col1{
     height: 500px;
     background-color:#f08080 ;
-}
+} */
 
 
-.debug .footer-col2, .footer-col3, .footer-col4{
+/* .debug .footer-col2, .footer-col3, .footer-col4, .footer-col5{
 height: 500px;
 background-color:#20b2aa;
 border: 1px dotted black;
-}
+} */
 
 
 
-.debug .footer-row2{
+/* .debug .footer-row2{
     background-color:#7fffd4 ;
     height: 70px;
-}
+} */
 
 
 
-.debug .element{
+/* .debug .element{
     background-color:#ffb6c1 ;
     height: 40px;
     width: 80px;
-    border: 1px dotted black;
-}
+    border: 1px dotted black; */
+
 /* -----/DEBUG--------*/
 
 
@@ -329,47 +326,64 @@ text-align: center;
 
 /* -----FOOTER--------*/
 footer{
+    background-color: black;
     padding-top: 50px ;
+    color: white;
 }
+
 
 .footer-row{
     display: flex;
 }
 
-.col{
-    /* width: 25%; */
-}
+
 
 .footer-col1{
-    flex-grow: 2;
+ flex-grow: 2;
 }
 
+
 .footer-col1 h1{
-    font-size: 1.5em;
+    font-size: 2em;
     color: #7289da;
 }
 
+
 .logo-ita{
-    padding: 10px 0;
+    padding: 20px 0;
 }
+
 
 .logo-ita img{
     width: 20px;
 }
 
+
 .icon{
-    color: white;
-   
+    color: white;  
 }
+
 
 .icon span{
-    padding: 0 6px;
+    padding-right: 20px;
 }
 
 
-.footer-col2, .footer-col3, .footer-col4{
+.col h1, p{
+    font-size: 12px;
+    padding: 10px 0;
+    font-weight: bolder;
+}
+
+.col h1{
+    color: #7289da;
+}
+
+
+.col{
     flex-grow: 1;
 }
+
 
 .footer-row2{
     display: flex;
@@ -378,7 +392,18 @@ footer{
     margin-top: 20px;
 }
 
+
 .element{
     padding: 10px 10px;
+}
+
+
+
+
+.btn-row2{
+    font-size: 16px;
+    padding: 10px;
+    background-color: #7289da;
+    color: white;
 }
 /* -----/FOOTER--------*/
