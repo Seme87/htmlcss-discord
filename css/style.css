@@ -102,6 +102,18 @@ border: 1px dotted black;
 
 
 /* -----HEADER--------*/
+.nav-top{
+    width: 50%;
+    display: flex;
+    list-style: none;
+}
+
+
+.logo, .login{
+    width: 25%;
+}
+
+
 .top, .low{
     padding: 16px 0;
 }
