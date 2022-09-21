@@ -8,85 +8,6 @@
 
 
 
-/* -----DEBUG--------*/
-/* .debug .top{
-   background-color: #add8e6; 
-} */
-
-/* .debug .low{
-    background-color:#00008b;
-} */
-
-/* .debug .header-top{
-    background-color: #daa520;
-    height: 50px;
-
-} */
-
-/* .debug .header-low{
-    background-color:#ee82ee;
-    height: 400px;
-    width: 800px; */
-
-
-.debug .first{
-    background-color: rgb(187, 29, 29);
-    height: 500px;
-}
-
-.debug .row{
-    height: 500px;
-}
-
-/* .debug .col-big{
-    background-color:#1e90ff ;
-} */
-
-/* .debug .col-small{
-    background-color: pink;
-} */
-
-/* .debug .grey{
-    background-color:#d3d3d3 ;
-} */
-
-/* .debug .content{
-    background-color: #228b22;
-    height: 700px;
-} */
-
-
-
-
-/* .debug .footer-col1{
-    height: 500px;
-    background-color:#f08080 ;
-} */
-
-
-/* .debug .footer-col2, .footer-col3, .footer-col4, .footer-col5{
-height: 500px;
-background-color:#20b2aa;
-border: 1px dotted black;
-} */
-
-
-
-/* .debug .footer-row2{
-    background-color:#7fffd4 ;
-    height: 70px;
-} */
-
-
-
-/* .debug .element{
-    background-color:#ffb6c1 ;
-    height: 40px;
-    width: 80px;
-    border: 1px dotted black; */
-
-/* -----/DEBUG--------*/
-
 
 
 /* -----COMMON--------*/
@@ -111,6 +32,8 @@ body{
 
 
 
+
+
 /* -----HEADER--------*/
 
 .top {
@@ -129,6 +52,7 @@ body{
     width: 50%; 
 }
 
+
 .logo{
     height: 34px;
     line-height: 34px;
@@ -139,12 +63,14 @@ body{
     width: 102px;
 }
 
+
 .nav-top{
     /* width: 50%; */
     display: flex;
     justify-content: center;
     list-style: none; 
 }
+
 
 .nav-top li{
     margin:0 20px;
@@ -156,10 +82,10 @@ body{
     width: 25%;
 }
 
+
 .btn-access{
     background-color: #f3ffff;
-    color: black;
-    
+    color: black;  
 }
 
 
@@ -168,16 +94,18 @@ body{
     text-align: center;
 }
 
+
 .low{
     background-image: url(../img/jumbo.png);
     background-size: 100%;
 }
 
+
 .header-top{
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
+
 
 .header-low {
     height: 400px;
@@ -188,15 +116,19 @@ body{
     align-items: center;
 }
 
+
 .text-header h1{
     padding: 30px 0;
     font-weight: bold;
     font-size: 2.5em;
 }
 
+
 .text-header p{
     padding-bottom:  15px;
+    line-height: 2;
 }
+
 
 .btn-whithe{
     font-size: 16px;
@@ -213,9 +145,9 @@ body{
      color: #f3ffff;
 }
 
-
-
 /* -----/ HEADER--------*/
+
+
 
 
 
@@ -237,14 +169,16 @@ section{
 }
 
 
-
 .row {
     display: flex;
+    height: 500px;
 }
+
 
 .col-big{
     width: 60%;
 }
+
 
 .col-small{
     padding: 0 30px;
@@ -252,6 +186,7 @@ section{
     margin-top: 40px;
     width: 40%;
 }
+
 
 .col-small p{
     color: #000b15;
@@ -278,6 +213,7 @@ section{
     background-position: center;
 }
 
+
 .title-text-4{
     font-size: 2em;
     text-align: center;
@@ -295,17 +231,14 @@ section{
     margin: 50px 0;
     text-align: center;
     background-image: url(../img/stars.svg);
-    background-position: center;
-   
+    background-position: center;  
 }
 
 
 .second-title4 h1{
-    font-size: 1.8em;
-    /* line-height: 100%; */
-    
-    
+    font-size: 1.8em; 
 }
+
 
 .btn-total{
 text-align: center;
@@ -320,6 +253,8 @@ text-align: center;
     color: white;
 }
 /* -----/ MAIN--------*/
+
+
 
 
 
@@ -375,6 +310,7 @@ footer{
     font-weight: bolder;
 }
 
+
 .col h1{
     color: #7289da;
 }
@@ -393,12 +329,9 @@ footer{
 }
 
 
-
-
 .element{
     padding: 10px 10px;
 }
-
 
 
 
